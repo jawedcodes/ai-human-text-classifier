@@ -1,5 +1,12 @@
-from tensorflow.keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
-from keras.models import Sequential
-from keras.layers import Dense, Embedding, LSTM
-from sklearn. model_selection import train_test_split
+1-Deep learning model heavy hote hai, isliye wo deploy hone me problem krte hai. 
+2-ye app deploy nhi ho paayi kyuki isme jo tensorflow libery hai wo kbhi bade size ki hai aur free
+version par aap ise upload nhi kr skte hai. 
+3-Tokenizer ki pickle file load krni hoti hai, uksa reason hai ki jb aapne apne model ko 
+tokenizer kiyatha aur fr usme train data fit kiya tha to wo sari vocabulary usi me store 
+ho jaati hai to aapko use download krna hoga taki aap use istemal kr ske. 
+4- mene ye sare code idhr udhr se dekh kr likhe hai lekin mene smjhe hai, 
+to mai iske liye prepare hun.
+5-mai iss data pr ab machine learning model train krunga, uske deploy krne ka try krunga. 
+6- ye  jis data pr train hua hai wo kafi bised hai usme human vala content jada hai 
+aur AI vala bhaut kam hai to iss model ki jo accuracy shi result predict krne ki wo shayd
+utni achi na ho. 
